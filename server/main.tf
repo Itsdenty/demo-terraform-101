@@ -23,7 +23,7 @@ resource "aws_instance" "web" {
 
   vpc_security_group_ids = ["${var.security_group_id}"]
 
-  tags {
+  tags = {
     "Name"       = "${var.identity} web ${count.index+1}/${var.num_webs}"
     "Identity"   = "${var.identity}"
     "Created-by" = "Terraform"
