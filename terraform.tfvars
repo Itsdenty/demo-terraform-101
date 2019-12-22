@@ -1,0 +1,6 @@
+access_key="AKIAU7DI3IOKWPUAO22Q"
+secret_key="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"
+security_group_id=""
+identity="training-salmon122"
+ami="ami-e70db29f"
+region="us-west-2"
